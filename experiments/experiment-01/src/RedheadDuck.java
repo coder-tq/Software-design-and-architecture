@@ -1,3 +1,4 @@
+//红头鸭
 public class RedheadDuck extends Duck{
     @Override
     public void display() {

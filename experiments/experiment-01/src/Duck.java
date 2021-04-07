@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public abstract class Duck {
     private String name;
     public void quack()
@@ -9,4 +11,7 @@ public abstract class Duck {
         System.out.println("游泳");
     }
     public abstract void display();
+    public void fly(){
+        System.out.println("我会飞");
+    };
 }

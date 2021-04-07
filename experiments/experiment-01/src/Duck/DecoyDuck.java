@@ -3,11 +3,11 @@ package Duck;
 import Behavior.FlyBehavior.FlyNoWay;
 import Behavior.QuackBehavior.MuteQuack;
 
-public class DecoyDuck extends Duck{
+public class DecoyDuck extends Duck {
 
 
     public DecoyDuck() {
-        super(new FlyNoWay(),new MuteQuack());
+        super(new FlyNoWay(), new MuteQuack());
     }
 
     @Override

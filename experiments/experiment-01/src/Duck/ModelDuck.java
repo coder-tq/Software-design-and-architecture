@@ -3,7 +3,7 @@ package Duck;
 import Behavior.FlyBehavior.FlyWithRocket;
 import Behavior.QuackBehavior.MuteQuack;
 
-public class ModelDuck extends Duck{
+public class ModelDuck extends Duck {
 
     public ModelDuck() {
         super(new FlyWithRocket(), new MuteQuack());

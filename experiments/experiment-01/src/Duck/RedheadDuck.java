@@ -4,7 +4,7 @@ import Behavior.FlyBehavior.FlyWithWings;
 import Behavior.QuackBehavior.Quack;
 
 //红头鸭
-public class RedheadDuck extends Duck{
+public class RedheadDuck extends Duck {
     public RedheadDuck() {
         super(new FlyWithWings(), new Quack());
     }

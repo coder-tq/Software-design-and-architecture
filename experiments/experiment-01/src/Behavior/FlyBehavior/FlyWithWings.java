@@ -1,4 +1,4 @@
-package Behavior;
+package Behavior.FlyBehavior;
 
 //用翅膀飞行
 public class FlyWithWings implements FlyBehavior{

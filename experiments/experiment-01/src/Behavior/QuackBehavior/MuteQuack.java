@@ -1,4 +1,4 @@
-package Behavior;
+package Behavior.QuackBehavior;
 
 // 不会叫
 public class MuteQuack implements QuackBehavior{

@@ -1,4 +1,4 @@
-package Behavior;
+package Behavior.QuackBehavior;
 
 //呱呱叫
 public class Quack implements QuackBehavior{

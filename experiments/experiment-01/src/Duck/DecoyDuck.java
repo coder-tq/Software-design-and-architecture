@@ -1,7 +1,7 @@
 package Duck;
 
-import Behavior.FlyNoWay;
-import Behavior.MuteQuack;
+import Behavior.FlyBehavior.FlyNoWay;
+import Behavior.QuackBehavior.MuteQuack;
 
 public class DecoyDuck extends Duck{
 

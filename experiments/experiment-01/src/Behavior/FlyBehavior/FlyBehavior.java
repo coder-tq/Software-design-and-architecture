@@ -1,4 +1,4 @@
-package Behavior;
+package Behavior.FlyBehavior;
 
 //飞行行为接口
 public interface FlyBehavior {

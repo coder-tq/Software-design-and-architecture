@@ -1,4 +1,4 @@
-package Behavior;
+package Behavior.FlyBehavior;
 
 //不能飞
 public class FlyNoWay implements FlyBehavior{

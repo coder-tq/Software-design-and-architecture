@@ -1,7 +1,7 @@
 package Duck;
 
-import Behavior.FlyBehavior;
-import Behavior.QuackBehavior;
+import Behavior.FlyBehavior.FlyBehavior;
+import Behavior.QuackBehavior.QuackBehavior;
 
 public abstract class Duck {
     private FlyBehavior flyBehavior;

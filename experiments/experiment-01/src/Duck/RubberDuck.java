@@ -1,7 +1,7 @@
 package Duck;
 
-import Behavior.FlyNoWay;
-import Behavior.Squeak;
+import Behavior.FlyBehavior.FlyNoWay;
+import Behavior.QuackBehavior.Squeak;
 
 //橡皮鸭
 public class RubberDuck extends Duck{

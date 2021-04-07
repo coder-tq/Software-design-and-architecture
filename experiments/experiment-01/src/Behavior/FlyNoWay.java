@@ -1,3 +1,5 @@
+package Behavior;
+
 //不能飞
 public class FlyNoWay implements FlyBehavior{
     @Override

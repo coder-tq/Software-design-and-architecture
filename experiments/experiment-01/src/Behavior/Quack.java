@@ -1,3 +1,5 @@
+package Behavior;
+
 //呱呱叫
 public class Quack implements QuackBehavior{
     @Override

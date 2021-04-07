@@ -1,3 +1,5 @@
+package Behavior;
+
 //用翅膀飞行
 public class FlyWithWings implements FlyBehavior{
     @Override

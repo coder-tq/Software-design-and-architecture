@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>classes.WeatherData</OriginalElement>
+  <nodes>
+    <node x="0.0" y="602.5">classes.ForecastDisplay</node>
+    <node x="379.92857142857144" y="462.0">interfaces.Observer</node>
+    <node x="153.39285714285717" y="462.0">interfaces.DisplayElement</node>
+    <node x="498.0" y="591.0">classes.CurrentConditionsDisplay</node>
+    <node x="0.0" y="152.0">classes.WeatherData</node>
+    <node x="21.5" y="0.0">interfaces.Subject</node>
+    <node x="248.00000000000003" y="568.0">classes.StatisticsDisplay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="classes.CurrentConditionsDisplay" target="interfaces.Observer" relationship="REALIZATION">
+      <point x="63.25" y="-86.5" />
+      <point x="687.75" y="538.0" />
+      <point x="489.92857142857144" y="538.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="classes.StatisticsDisplay" target="interfaces.DisplayElement" relationship="REALIZATION">
+      <point x="-57.5" y="-109.5" />
+      <point x="305.5" y="548.0" />
+      <point x="233.39285714285717" y="548.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="classes.ForecastDisplay" target="interfaces.DisplayElement" relationship="REALIZATION">
+      <point x="-57.0" y="-75.0" />
+      <point x="57.0" y="548.0" />
+      <point x="233.39285714285717" y="548.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="classes.StatisticsDisplay" target="interfaces.Observer" relationship="REALIZATION">
+      <point x="57.5" y="-109.5" />
+      <point x="420.5" y="538.0" />
+      <point x="489.92857142857144" y="538.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="classes.CurrentConditionsDisplay" target="interfaces.DisplayElement" relationship="REALIZATION">
+      <point x="-63.25" y="-86.5" />
+      <point x="561.25" y="548.0" />
+      <point x="233.39285714285717" y="548.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="classes.WeatherData" target="interfaces.Subject" relationship="REALIZATION">
+      <point x="0.0" y="-132.5" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="classes.ForecastDisplay" target="interfaces.Observer" relationship="REALIZATION">
+      <point x="57.0" y="-75.0" />
+      <point x="171.0" y="538.0" />
+      <point x="489.92857142857144" y="538.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.8302354399008675" showDependencies="false" x="375.5" y="393.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>内部类</Category>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+    <Category>构造函数</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>beverage.HouseBlend</OriginalElement>
+  <nodes>
+    <node x="608.0" y="0.0">beverage.Beverage</node>
+    <node x="769.0" y="154.0">beverage.Espresso</node>
+    <node x="183.00000000000006" y="284.0">Decorator.Whip</node>
+    <node x="0.0" y="284.0">Decorator.Milk</node>
+    <node x="257.00000000000006" y="154.0">Decorator.CondimentDecorator</node>
+    <node x="366.00000000000006" y="284.0">Decorator.Mocha</node>
+    <node x="549.0" y="284.0">Decorator.Soy</node>
+    <node x="622.0" y="154.0">beverage.Decaf</node>
+    <node x="475.00000000000006" y="154.0">beverage.DarkRoast</node>
+    <node x="916.0" y="154.0">beverage.HouseBlend</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Decorator.Mocha" target="Decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-64.0" />
+      <point x="447.50000000000006" y="259.0" />
+      <point x="356.00000000000006" y="259.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="beverage.DarkRoast" target="beverage.Beverage" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="538.5000000000001" y="129.0" />
+      <point x="685.5" y="129.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="beverage.HouseBlend" target="beverage.Beverage" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="983.5" y="129.0" />
+      <point x="685.5" y="129.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="Decorator.Soy" target="Decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-64.0" />
+      <point x="630.5" y="259.0" />
+      <point x="356.00000000000006" y="259.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="Decorator.CondimentDecorator" target="beverage.Beverage" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="356.00000000000006" y="129.0" />
+      <point x="685.5" y="129.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="beverage.Espresso" target="beverage.Beverage" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="832.5" y="129.0" />
+      <point x="685.5" y="129.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="Decorator.Milk" target="Decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-64.0" />
+      <point x="81.5" y="259.0" />
+      <point x="356.00000000000006" y="259.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="Decorator.Whip" target="Decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="5.6843418860808015E-14" y="-64.0" />
+      <point x="264.5000000000001" y="259.0" />
+      <point x="356.00000000000006" y="259.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="beverage.Decaf" target="beverage.Beverage" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.8500000000000001" showDependencies="false" x="563.5294117647059" y="222.11764705882348" />
+  <SelectedNodes />
+  <Categories>
+    <Category>内部类</Category>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+    <Category>构造函数</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

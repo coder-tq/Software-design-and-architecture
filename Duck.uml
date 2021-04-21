@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Duck.Duck</OriginalElement>
+  <nodes>
+    <node x="263.0" y="0.0">Duck.Duck</node>
+    <node x="624.0" y="246.0">Duck.RubberDuck</node>
+    <node x="169.0" y="246.0">Duck.ModelDuck</node>
+    <node x="321.0" y="246.0">Duck.MallarDuck</node>
+    <node x="473.0" y="246.0">Duck.DecoyDuck</node>
+    <node x="0.0" y="246.0">Duck.RedheadDuck</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Duck.RubberDuck" target="Duck.Duck" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="693.5" y="221.0" />
+      <point x="387.0" y="221.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="Duck.MallarDuck" target="Duck.Duck" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="Duck.RedheadDuck" target="Duck.Duck" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="74.5" y="221.0" />
+      <point x="387.0" y="221.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="Duck.DecoyDuck" target="Duck.Duck" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="538.5" y="221.0" />
+      <point x="387.0" y="221.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="Duck.ModelDuck" target="Duck.Duck" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="235.0" y="221.0" />
+      <point x="387.0" y="221.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.85" showDependencies="false" x="44.0" y="15.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>内部类</Category>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+    <Category>构造函数</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

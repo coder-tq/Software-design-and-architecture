@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pizza.Pizza</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1101.0">ingredient.impl.Mushroom</node>
+    <node x="1110.75" y="1226.0">ingredient.Sauce</node>
+    <node x="984.0" y="1101.0">ingredient.impl.RedPepper</node>
+    <node x="772.0" y="687.0">store.ChicagoPizzaStore</node>
+    <node x="999.0" y="1332.0">ingredient.impl.PlumTomatoSauce</node>
+    <node x="376.0" y="1332.0">ingredient.impl.MozzarellaCheese</node>
+    <node x="618.0" y="385.0">pizza.ClamPizza</node>
+    <node x="1563.0" y="1332.0">ingredient.impl.FreshClams</node>
+    <node x="927.0" y="385.0">pizza.PepperoniPizza</node>
+    <node x="820.0" y="1101.0">ingredient.impl.Spinach</node>
+    <node x="188.0" y="1332.0">ingredient.impl.ReggianoCheese</node>
+    <node x="10.0" y="1457.0">ingredient.Pepperoni</node>
+    <node x="1399.0" y="1332.0">ingredient.impl.FrozenClams</node>
+    <node x="158.75" y="534.0">factory.PizzaIngredientFactory</node>
+    <node x="287.0" y="755.0">factory.NYPizzaIngredientFactory</node>
+    <node x="309.0" y="385.0">pizza.VeggiePizza</node>
+    <node x="164.0" y="1101.0">ingredient.impl.Eggplant</node>
+    <node x="520.5" y="0.0">pizza.Pizza</node>
+    <node x="1199.0" y="1332.0">ingredient.impl.MarinaraSauce</node>
+    <node x="705.25" y="1226.0">ingredient.Dough</node>
+    <node x="564.0" y="687.0">store.NYPizzaStore</node>
+    <node x="1481.0" y="1226.0">ingredient.Clams</node>
+    <node x="0.0" y="755.0">factory.ChicagoPizzaIngredientFactory</node>
+    <node x="597.0" y="1332.0">ingredient.impl.ThickCrustDough</node>
+    <node x="0.0" y="385.0">pizza.CheesePizza</node>
+    <node x="656.0" y="1101.0">ingredient.impl.Garlic</node>
+    <node x="789.0" y="1332.0">ingredient.impl.ThinCrustDough</node>
+    <node x="328.0" y="1101.0">ingredient.impl.Onion</node>
+    <node x="0.0" y="1563.0">ingredient.impl.SlicedPepperoni</node>
+    <node x="492.0" y="995.0">ingredient.Veggies</node>
+    <node x="668.0" y="534.0">store.PizzaStore</node>
+    <node x="200.0" y="1226.0">ingredient.Cheese</node>
+    <node x="0.0" y="1332.0">ingredient.impl.ParmesanCheese</node>
+    <node x="492.0" y="1101.0">ingredient.impl.BlackOlives</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ingredient.impl.Mushroom" target="ingredient.Veggies" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="72.0" y="1076.0" />
+      <point x="564.0" y="1076.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="ingredient.impl.RedPepper" target="ingredient.Veggies" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="1056.0" y="1076.0" />
+      <point x="564.0" y="1076.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="pizza.PepperoniPizza" target="pizza.Pizza" relationship="GENERALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="1071.5" y="360.0" />
+      <point x="608.0" y="360.0" />
+      <point x="0.0" y="167.5" />
+    </edge>
+    <edge source="ingredient.impl.ThickCrustDough" target="ingredient.Dough" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="683.0" y="1307.0" />
+      <point x="777.25" y="1307.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="store.ChicagoPizzaStore" target="store.PizzaStore" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="866.0" y="662.0" />
+      <point x="762.0" y="662.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="ingredient.impl.Spinach" target="ingredient.Veggies" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="892.0" y="1076.0" />
+      <point x="564.0" y="1076.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="ingredient.impl.Garlic" target="ingredient.Veggies" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="728.0" y="1076.0" />
+      <point x="564.0" y="1076.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="ingredient.impl.MarinaraSauce" target="ingredient.Sauce" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="1276.5" y="1307.0" />
+      <point x="1182.75" y="1307.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="pizza.ClamPizza" target="pizza.Pizza" relationship="GENERALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="762.5" y="360.0" />
+      <point x="608.0" y="360.0" />
+      <point x="0.0" y="167.5" />
+    </edge>
+    <edge source="pizza.VeggiePizza" target="pizza.Pizza" relationship="GENERALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="453.5" y="360.0" />
+      <point x="608.0" y="360.0" />
+      <point x="0.0" y="167.5" />
+    </edge>
+    <edge source="ingredient.impl.FreshClams" target="ingredient.Clams" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="1635.0" y="1307.0" />
+      <point x="1553.0" y="1307.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="ingredient.impl.PlumTomatoSauce" target="ingredient.Sauce" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="1089.0" y="1307.0" />
+      <point x="1182.75" y="1307.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="ingredient.impl.ParmesanCheese" target="ingredient.Cheese" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="84.0" y="1307.0" />
+      <point x="272.0" y="1307.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="store.NYPizzaStore" target="store.PizzaStore" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="658.0" y="662.0" />
+      <point x="762.0" y="662.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="ingredient.impl.Onion" target="ingredient.Veggies" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="400.0" y="1076.0" />
+      <point x="564.0" y="1076.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="ingredient.impl.MozzarellaCheese" target="ingredient.Cheese" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="464.0" y="1307.0" />
+      <point x="272.0" y="1307.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="ingredient.impl.ThinCrustDough" target="ingredient.Dough" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="871.5" y="1307.0" />
+      <point x="777.25" y="1307.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="ingredient.impl.BlackOlives" target="ingredient.Veggies" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="factory.NYPizzaIngredientFactory" target="factory.PizzaIngredientFactory" relationship="REALIZATION">
+      <point x="0.0" y="-97.5" />
+      <point x="403.0" y="730.0" />
+      <point x="268.25" y="730.0" />
+      <point x="0.0" y="85.5" />
+    </edge>
+    <edge source="ingredient.impl.SlicedPepperoni" target="ingredient.Pepperoni" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="ingredient.impl.Eggplant" target="ingredient.Veggies" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="236.0" y="1076.0" />
+      <point x="564.0" y="1076.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="pizza.CheesePizza" target="pizza.Pizza" relationship="GENERALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="144.5" y="360.0" />
+      <point x="608.0" y="360.0" />
+      <point x="0.0" y="167.5" />
+    </edge>
+    <edge source="factory.ChicagoPizzaIngredientFactory" target="factory.PizzaIngredientFactory" relationship="REALIZATION">
+      <point x="0.0" y="-97.5" />
+      <point x="133.5" y="730.0" />
+      <point x="268.25" y="730.0" />
+      <point x="0.0" y="85.5" />
+    </edge>
+    <edge source="ingredient.impl.FrozenClams" target="ingredient.Clams" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="1471.0" y="1307.0" />
+      <point x="1553.0" y="1307.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="ingredient.impl.ReggianoCheese" target="ingredient.Cheese" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.0" showDependencies="true" x="391.5" y="315.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>内部类</Category>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+    <Category>构造函数</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

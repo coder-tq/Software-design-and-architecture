@@ -1,5 +1,4 @@
 package classes;
-
 import interfaces.Observer;
 import interfaces.Subject;
 

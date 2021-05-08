@@ -4,7 +4,6 @@ import store.NYPizzaStore;
 import store.PizzaStore;
 
 public class PizzaTestDrive {
-
     public static void main(String[] args) {
         PizzaStore nyStore = new NYPizzaStore();
         PizzaStore chicagoStore = new ChicagoPizzaStore();
@@ -31,6 +30,6 @@ public class PizzaTestDrive {
         System.out.println("Ethan 点了一个 \n" + pizza + "\n");
 
         pizza = chicagoStore.orderPizza("veggie");
-        System.out.println("Joel 点了一个 \n" + pizza + "\n");
+        System.out.println("Joel 点了一个 \n" + pizza + "，说没有jb真好吃" + "\n");
     }
 }

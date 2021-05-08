@@ -1,0 +1,19 @@
+@startuml
+
+interface People{
+buyHouse()
+}
+
+class RealPerson{
+buyHouse()
+}
+class Proxy{
+buyHouse()
+}
+
+People <|.. RealPerson
+People <|.. Proxy
+
+Main*--People
+
+@enduml

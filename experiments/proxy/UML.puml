@@ -1,19 +1,20 @@
 @startuml
 
-interface People{
-buyHouse()
+interface UserDao{
+selectUserById():User
 }
 
-class RealPerson{
-buyHouse()
-}
-class Proxy{
-buyHouse()
+class UserDaoImpl{
+selectUserById():User
 }
 
-People <|.. RealPerson
-People <|.. Proxy
+class UserDaoLog{
+selectUserById():User
+}
 
-Main*--People
+Main *-- UserDao
+UserDao <|.. UserDaoImpl
+UserDao <|.. UserDaoLog
+
 
 @enduml

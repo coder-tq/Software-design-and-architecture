@@ -1,20 +1,28 @@
 @startuml
 
 interface UserDao{
-selectUserById():User
++selectUserById():User
+}
+
+class User{
+    -String name;
+    -int sex;
+    -String email;
+    -String password;
 }
 
 class UserDaoImpl{
-selectUserById():User
++selectUserById():User
 }
 
 class UserDaoLog{
-selectUserById():User
++selectUserById():User
 }
 
-Main *-- UserDao
+UserDao <-- UserDaoLog
+Main --> UserDao
 UserDao <|.. UserDaoImpl
 UserDao <|.. UserDaoLog
-
+UserDaoImpl *-- User
 
 @enduml

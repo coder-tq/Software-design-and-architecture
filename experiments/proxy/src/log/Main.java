@@ -10,3 +10,4 @@ public class Main {
         User user = userDaoLog.selectUserById(1);
     }
 }
+

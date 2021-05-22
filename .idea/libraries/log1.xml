@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="log1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/experiments/proxy/src/log.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

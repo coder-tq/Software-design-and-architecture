@@ -14,18 +14,14 @@ public class WeatherData implements Subject {
      * 湿度
      */
     private float humidity;
-
     private float pressure;
-
 
     public WeatherData() {
         observers = new ArrayList<>();
     }
 
-
     /**
      * 注册观察者
-     *
      * @param o 新的观察者
      */
     @Override
@@ -35,7 +31,6 @@ public class WeatherData implements Subject {
 
     /**
      * 移除观察者
-     *
      * @param o 要被移除的观察者
      */
     @Override

@@ -22,5 +22,4 @@ public class Main {
         beverage2 = new Whip(new Mocha(new Soy(beverage2)));
         System.out.println(beverage2.getDescription()+" $"+beverage2.cost());
     }
-
 }
